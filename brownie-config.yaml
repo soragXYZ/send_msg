@@ -1,0 +1,9 @@
+dotenv: .env
+networks:
+  default: rinkeby
+
+wallets:
+  from_key: ${PRIVATE_KEY}
+
+recipient: 
+  from_key: ${RECIPIENT_PBKEY}
